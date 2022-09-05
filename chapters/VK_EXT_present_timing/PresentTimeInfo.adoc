@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2020 Khronos Group.
+// Copyright (c) 2014-2022 Khronos Group.
 //
 // SPDX-License-Identifier: CC-BY-4.0
 
@@ -34,8 +34,7 @@ include::{generated}/api/structs/VkPresentTimesInfoEXT.adoc[]
 
 .Valid Usage
 ****
-  * [[VUID-VkPresentTimesInfoEXT-swapchainCount-01247]]
-    pname:swapchainCount must: be the same value as
+  * pname:swapchainCount must: be the same value as
     sname:VkPresentInfoKHR::pname:swapchainCount, where
     sname:VkPresentInfoKHR is in the pname:pNext chain of this
     sname:VkPresentTimesInfoEXT structure.
